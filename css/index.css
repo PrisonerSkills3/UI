@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@media ( max-width: 530px ) {
+  font-size: 2.5rem;
+}
+@media (max-width: 750px ) {
+  font-size: 3rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -125,4 +145,10 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+.about h1 {
+  color: cyan;
 }
