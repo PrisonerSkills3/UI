@@ -1,3 +1,9 @@
+@media ( max-width: 530px ) {
+  font-size: 2.5rem;
+}
+@media (max-width: 750px ) {
+  font-size: 3rem;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -125,4 +131,8 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+.navbar {
+  display: flex;
+  background: black;
 }
