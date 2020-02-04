@@ -1,25 +1,46 @@
+html {
+    padding: 5%;
+}
+
 .main {
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
 
-    img {
-        width: 50%;
-        padding-top: 5%;
-    }
+    .row1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    .paragraphs {
-        width: 50%;
-        flex-direction: column; 
-        justify-content: space-between;
+        img {
+            width: 50%;
+            padding: 5%;
+        }
 
-        p { //paragraphs inside first row
+        .paragraphs {
+            width: 50%;
             padding: 5%;
         }
     }
 
-    p { // paragraph in second row
-        width: 50%;
+    .row2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            width: 50%;
+            padding: 5%;
+        }
+
+        .img2 {
+            border: @prussian-blue 5px solid;
+            width: 30%;
+            padding: 1%;
+            margin: 4%;
+            background-color: @corvette;
+
+        }
     }
 }
