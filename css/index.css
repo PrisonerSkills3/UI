@@ -247,6 +247,24 @@ html {
     width: 50%;
   }
 }
+footer {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+footer a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  width: 10%;
+  text-align: center;
+}
+footer a:hover {
+  color: #E8A87C;
+}
 body {
   padding: 5%;
   background: #D8D9D1;
