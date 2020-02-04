@@ -152,6 +152,18 @@ nav a {
   padding: 2%;
   width: 10%;
   text-align: center;
+  font-size: 2rem;
+  font-family: 'Merriweather', serif;
+}
+@media ( max-width: 500px ) {
+  nav a {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 800px ) {
+  nav a {
+    font-size: 1.5rem;
+  }
 }
 nav a:hover {
   color: #E8A87C;
@@ -203,8 +215,9 @@ html {
   }
 }
 .main .row1 .paragraphs {
-  width: 50%;
+  width: 70%;
   padding: 5%;
+  font-size: 2rem;
 }
 @media ( max-width: 500px ) {
   .main .row1 .paragraphs {
@@ -214,7 +227,13 @@ html {
 @media (max-width: 800px ) {
   .main .row1 .paragraphs {
     width: 100%;
+    font-size: 1.5rem;
   }
+}
+.main .row1 .paragraphs h2 {
+  font-size: 3rem;
+  padding: 5%;
+  width: 100%;
 }
 .main .row2 {
   display: flex;
@@ -229,10 +248,16 @@ html {
 .main .row2 p {
   width: 50%;
   padding: 5%;
+  font-size: 2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
     width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row2 p {
+    font-size: 1.5rem;
   }
 }
 .main .row2 .img2 {
@@ -259,13 +284,39 @@ footer a {
   background: #41B3A3;
   color: black;
   padding: 2%;
-  width: 10%;
+  width: 100%;
   text-align: center;
+  font-size: 2rem;
 }
 footer a:hover {
   color: #E8A87C;
 }
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+html {
+  font-size: 62.5%;
+}
 body {
   padding: 5%;
   background: #D8D9D1;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
 }
