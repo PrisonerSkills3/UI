@@ -214,8 +214,12 @@ table {
   color: black;
   padding: 2%;
   width: 10%;
+  font-size: 1.6rem;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+.aboutcontainer nav a:hover {
+  color: #E8A87C;
 }
 @media ( max-width: 530px ) {
   .aboutcontainer nav a {
@@ -254,8 +258,12 @@ table {
   color: black;
   padding: 2%;
   width: 10%;
+  font-size: 1.6rem;
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Merriweather', serif;
+}
+.testimonials .testimonialscontainer nav a:hover {
+  color: #E8A87C;
 }
 @media ( max-width: 530px ) {
   .testimonials .testimonialscontainer nav a {
