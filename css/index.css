@@ -276,6 +276,7 @@ html {
 .boxes {
   display: flex;
   justify-content: center;
+  align-items: stretch;
 }
 @media (max-width: 800px ) {
   .boxes {
@@ -309,7 +310,8 @@ html {
   margin: 2%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
+  justify-content: center;
   margin: 10%;
 }
 @media (max-width: 800px ) {
