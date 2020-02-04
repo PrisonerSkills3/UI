@@ -2,10 +2,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 
     img {
-        width: 60%;
-        padding: 5%;
+        width: 50%;
+        padding-top: 5%;
     }
 
     .paragraphs {
@@ -13,8 +14,12 @@
         flex-direction: column; 
         justify-content: space-between;
 
-        p {
+        p { //paragraphs inside first row
             padding: 5%;
         }
+    }
+
+    p { // paragraph in second row
+        width: 50%;
     }
 }

@@ -151,10 +151,11 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 .main img {
-  width: 60%;
-  padding: 5%;
+  width: 50%;
+  padding-top: 5%;
 }
 .main .paragraphs {
   width: 50%;
@@ -163,6 +164,9 @@ nav a {
 }
 .main .paragraphs p {
   padding: 5%;
+}
+.main p {
+  width: 50%;
 }
 body {
   padding: 5%;
