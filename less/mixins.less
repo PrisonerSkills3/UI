@@ -32,6 +32,7 @@
     border: solid 4px @prussian-blue;
     width: 35%;
     margin: 3%;
+    font-family: @raleway;
     p {
         font-size: 1.2rem;
         margin-top: 1%;
@@ -39,7 +40,11 @@
     }
     img {
         border-radius: 50%;
-        margin: auto;
+        margin: 1%;
+        border: solid black 1px;
+        @media @phone {
+            width: 80%;
+        }
     }
     h3 {
         font-size: 1.4rem;
