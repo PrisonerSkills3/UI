@@ -152,9 +152,11 @@ nav a {
   padding: 2%;
   margin: 2%;
   width: 50%;
+  max-width: fit-content;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-family: 'Merriweather', serif;
+  white-space: nowrap;
 }
 @media ( max-width: 500px ) {
   nav a {
@@ -163,7 +165,7 @@ nav a {
 }
 @media (max-width: 800px ) {
   nav a {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 nav a:hover {
@@ -175,6 +177,7 @@ nav a:hover {
     width: 80%;
     padding: 1%;
     margin: 5%;
+    padding: 5%;
   }
 }
 html {
