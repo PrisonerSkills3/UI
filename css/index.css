@@ -150,7 +150,8 @@ nav a {
   background: #41B3A3;
   color: black;
   padding: 2%;
-  width: 10%;
+  margin: 2%;
+  width: 50%;
   text-align: center;
   font-size: 2rem;
   font-family: 'Merriweather', serif;
