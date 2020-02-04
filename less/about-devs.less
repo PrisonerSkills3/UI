@@ -21,11 +21,20 @@
             border: solid green;
             .about-dev {
                 margin: 1%;
+                @media @phone {
+                    margin-left: 2%;
+                }
                 h2 {
                     font-size: 1.6rem;
                 }
                 .about-text {
                     margin: auto;
+                    @media @phone {
+                        margin-left: 2%;
+                    }
+                    @media @tablet {
+                        margin-left: 2%;
+                    }
                     .logo {
                         background: transparent;
                     }

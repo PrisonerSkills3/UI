@@ -161,20 +161,46 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-nav {
+.aboutcontainer nav {
   display: flex;
   background: #012B4D;
   padding: 2%;
   justify-content: space-around;
   flex-wrap: nowrap;
 }
-nav a {
+@media ( max-width: 530px ) {
+  .aboutcontainer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 750px ) {
+  .aboutcontainer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.aboutcontainer nav a {
   text-decoration: none;
   background: #41B3A3;
   color: black;
   padding: 2%;
   width: 10%;
   text-align: center;
+}
+@media ( max-width: 530px ) {
+  .aboutcontainer nav a {
+    width: auto;
+    border: solid red;
+  }
+}
+@media (max-width: 750px ) {
+  .aboutcontainer nav a {
+    width: auto;
+    border: solid green;
+  }
 }
 .aboutfooter nav {
   display: flex;
@@ -190,6 +216,18 @@ nav a {
   padding: 2%;
   width: 10%;
   text-align: center;
+}
+@media ( max-width: 530px ) {
+  .aboutfooter nav a {
+    width: auto;
+    border: solid red;
+  }
+}
+@media (max-width: 750px ) {
+  .aboutfooter nav a {
+    width: auto;
+    border: solid green;
+  }
 }
 h1 {
   font-family: 'Raleway', sans-serif;
@@ -221,11 +259,26 @@ h1 {
 .about .aboutcontainer .about-contentcontainer .about-dev {
   margin: 1%;
 }
+@media ( max-width: 530px ) {
+  .about .aboutcontainer .about-contentcontainer .about-dev {
+    margin-left: 2%;
+  }
+}
 .about .aboutcontainer .about-contentcontainer .about-dev h2 {
   font-size: 1.6rem;
 }
 .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
   margin: auto;
+}
+@media ( max-width: 530px ) {
+  .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
+    margin-left: 2%;
+  }
+}
+@media (max-width: 750px ) {
+  .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
+    margin-left: 2%;
+  }
 }
 .about .aboutcontainer .about-contentcontainer .about-dev .about-text .logo {
   background: transparent;
