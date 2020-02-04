@@ -29,7 +29,6 @@
 .about-dev {
   display: flex;
   justify-content: center;
-  border: solid yellow;
   align-items: center;
   font-family: 'Merriweather', serif;
 }
@@ -189,17 +188,16 @@ table {
   padding: 2%;
   width: 10%;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 @media ( max-width: 530px ) {
   .aboutcontainer nav a {
     width: auto;
-    border: solid red;
   }
 }
 @media (max-width: 750px ) {
   .aboutcontainer nav a {
     width: auto;
-    border: solid green;
   }
 }
 .aboutfooter nav {
@@ -216,17 +214,16 @@ table {
   padding: 2%;
   width: 10%;
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 @media ( max-width: 530px ) {
   .aboutfooter nav a {
     width: auto;
-    border: solid red;
   }
 }
 @media (max-width: 750px ) {
   .aboutfooter nav a {
     width: auto;
-    border: solid green;
   }
 }
 h1 {
@@ -243,7 +240,6 @@ h1 {
   color: #21211A;
 }
 .about .aboutcontainer header {
-  border: solid red;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -254,7 +250,6 @@ h1 {
 }
 .about .aboutcontainer .about-contentcontainer {
   margin: 2%;
-  border: solid green;
 }
 .about .aboutcontainer .about-contentcontainer .about-dev {
   margin: 1%;
