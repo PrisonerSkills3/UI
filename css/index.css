@@ -160,7 +160,13 @@ nav a {
 }
 @media ( max-width: 500px ) {
   nav a {
-    font-size: 1rem;
+    font-size: 20px;
+    background-color: #012B4D;
+    color: #41B3A3;
+    border-top: 2px solid #E8A87C;
+    border-bottom: 2px solid #E8A87C;
+    width: 100%;
+    max-width: 100%;
   }
 }
 @media (max-width: 800px ) {
@@ -175,9 +181,8 @@ nav a:hover {
   nav a {
     margin: 10%;
     width: 80%;
-    padding: 1%;
     margin: 5%;
-    padding: 5%;
+    padding: 1%;
   }
 }
 html {
