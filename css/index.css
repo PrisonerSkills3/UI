@@ -223,15 +223,14 @@ nav a {
   padding: 2%;
   margin: 2%;
   width: 50%;
-  max-width: fit-content;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Merriweather', serif;
   white-space: nowrap;
 }
 @media ( max-width: 500px ) {
   nav a {
-    font-size: 20px;
+    font-size: 1rem;
     background-color: #012B4D;
     color: #41B3A3;
     border-top: 2px solid #E8A87C;
@@ -242,7 +241,7 @@ nav a {
 }
 @media (max-width: 800px ) {
   nav a {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 nav a:hover {
