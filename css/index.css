@@ -391,7 +391,7 @@ p {
 .main .row1 .paragraphs {
   width: 70%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 @media ( max-width: 500px ) {
   .main .row1 .paragraphs {
@@ -423,7 +423,7 @@ p {
 .main .row2 p {
   width: 50%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
@@ -495,7 +495,7 @@ p {
 }
 .boxes .textbox p {
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 footer {
   display: flex;
@@ -626,7 +626,7 @@ p {
 .main .row1 .paragraphs {
   width: 70%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 @media ( max-width: 500px ) {
   .main .row1 .paragraphs {
@@ -658,7 +658,7 @@ p {
 .main .row2 p {
   width: 50%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
