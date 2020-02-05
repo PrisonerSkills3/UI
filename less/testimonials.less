@@ -1,0 +1,50 @@
+.testimonials {
+    font-size: 62.5%;
+    padding: 2% 4% 2% 4%;
+
+    .testimonialscontainer {
+        background-color: @bg-color;
+        .topcontent {
+
+            display: flex;
+            flex-direction: column;
+            margin: 2%;
+            justify-content: center;
+
+            .bottomline {
+                display: flex;
+                justify-content: flex-end;
+                border-bottom: solid @corvette 1px;
+            }
+
+            h1 {
+                font-size: 2rem;
+                margin-bottom: 2%;
+                font-family: @merriweather;
+            }
+        
+        } // closes topcontent
+        .reviews {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            @media @phone {
+                disply: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .reviewstyle {
+                @media @phone {
+                    width: 80%;
+                }
+
+                img {
+                    @media @phone {
+                        width: 30%;
+                    }
+                }
+            }
+        }
+    
+    }// closes testimonialscontainer
+}
