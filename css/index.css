@@ -213,10 +213,12 @@ table {
   background: #41B3A3;
   color: black;
   padding: 2%;
-  width: 10%;
-  font-size: 1.6rem;
+  width: 50%;
+  font-size: 1.5rem;
   text-align: center;
+  max-width: fit-content;
   font-family: 'Merriweather', serif;
+  white-space: nowrap;
 }
 .aboutcontainer nav a:hover {
   color: #E8A87C;
@@ -237,6 +239,7 @@ table {
   padding: 2%;
   justify-content: space-around;
   flex-wrap: nowrap;
+  white-space: nowrap;
 }
 @media ( max-width: 530px ) {
   .testimonials .testimonialscontainer nav {
@@ -420,4 +423,21 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+}
+@media ( max-width: 530px ) {
+  .testimonials .testimonialscontainer .reviews {
+    disply: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media ( max-width: 530px ) {
+  .testimonials .testimonialscontainer .reviews .reviewstyle {
+    width: 80%;
+  }
+}
+@media ( max-width: 530px ) {
+  .testimonials .testimonialscontainer .reviews .reviewstyle img {
+    width: 30%;
+  }
 }
