@@ -73,3 +73,6 @@
 	animation-name: fadeInRight;
 	animation-duration: 1.2s;
 }
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
