@@ -1,0 +1,100 @@
+html {
+    padding: 5%;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+    .row1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column;
+        }
+
+        @media @tablet {
+            flex-direction: column;
+        }
+
+        img {
+            width: 50%;
+            padding: 5%;
+
+            @media @phone {
+                width: 100%;
+            }
+
+            @media @tablet {
+                width: 70%;
+            }
+        }
+
+        .paragraphs {
+            width: 70%;
+            padding: 5%;
+            font-size: 2rem;
+
+            @media @phone {
+                width: 100%;
+            }
+
+            @media @tablet {
+                width: 100%;
+                font-size: 1.5rem;
+            }
+
+            h2 {
+                font-size: 3rem;
+                line-height: 1.5;
+                padding: 5%;
+                width: 100%;
+            }
+        }
+    }
+
+    .row2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        @media @phone {
+            flex-direction: column-reverse;
+        }
+
+        p {
+            width: 50%;
+            padding: 5%;
+            font-size: 2rem;
+
+            @media @phone {
+                width: 100%;
+            }
+
+            @media @tablet {
+                font-size: 1.5rem;
+            }
+        }
+
+        .img2 {
+            border: @prussian-blue 5px solid;
+            width: 30%;
+            padding: 1%;
+            margin: 4%;
+            background-color: @corvette;
+
+            @media @phone {
+                width: 50%;
+            }
+
+        }
+    }
+}
