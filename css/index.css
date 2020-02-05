@@ -221,8 +221,8 @@ nav a {
   text-decoration: none;
   background: #41B3A3;
   color: black;
-  padding: 2%;
-  margin: 2%;
+  padding: 1%;
+  margin: 1%;
   width: 50%;
   text-align: center;
   font-size: 1.2rem;
@@ -405,8 +405,19 @@ p {
 .main .row1 .paragraphs h2 {
   font-size: 3rem;
   line-height: 1.5;
-  padding: 5%;
+  padding-bottom: 5%;
   width: 100%;
+  text-align: center;
+}
+.main .row1 .paragraphs p {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs p {
+    font-size: 1rem;
+  }
 }
 .main .row2 {
   display: flex;
@@ -421,7 +432,7 @@ p {
 .main .row2 p {
   width: 50%;
   padding: 5%;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
@@ -498,7 +509,7 @@ p {
 footer {
   display: flex;
   background: #012B4D;
-  padding: 2%;
+  padding: 1%;
   justify-content: space-around;
   flex-wrap: nowrap;
 }
@@ -506,10 +517,10 @@ footer a {
   text-decoration: none;
   background: #41B3A3;
   color: black;
-  padding: 2%;
+  padding: 1%;
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 footer a:hover {
   color: #E8A87C;
@@ -639,8 +650,19 @@ p {
 .main .row1 .paragraphs h2 {
   font-size: 3rem;
   line-height: 1.5;
-  padding: 5%;
+  padding-bottom: 5%;
   width: 100%;
+  text-align: center;
+}
+.main .row1 .paragraphs p {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs p {
+    font-size: 1rem;
+  }
 }
 .main .row2 {
   display: flex;
@@ -655,7 +677,7 @@ p {
 .main .row2 p {
   width: 50%;
   padding: 5%;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
