@@ -12,10 +12,10 @@
   font-display: swap;
   src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   font-size: 2.5rem;
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   font-size: 3rem;
 }
 .about-text {
@@ -50,7 +50,7 @@
   margin: 1%;
   border: solid black 1px;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .reviewstyle img {
     width: 80%;
   }
@@ -58,6 +58,22 @@
 .reviewstyle h3 {
   font-size: 1.4rem;
   margin-top: 1%;
+}
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+}
+body {
+  padding: 5%;
+  background: #D8D9D1;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -187,6 +203,59 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+@media ( max-width: 500px ) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+nav a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  margin: 2%;
+  width: 50%;
+  max-width: fit-content;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Merriweather', serif;
+  white-space: nowrap;
+}
+@media ( max-width: 500px ) {
+  nav a {
+    font-size: 20px;
+    background-color: #012B4D;
+    color: #41B3A3;
+    border-top: 2px solid #E8A87C;
+    border-bottom: 2px solid #E8A87C;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  nav a {
+    font-size: 1rem;
+  }
+}
+nav a:hover {
+  color: #E8A87C;
+}
+@media ( max-width: 500px ) {
+  nav a {
+    margin: 10%;
+    width: 80%;
+    margin: 5%;
+    padding: 1%;
+  }
+}
 .aboutcontainer nav {
   display: flex;
   background: #012B4D;
@@ -194,14 +263,14 @@ table {
   justify-content: space-around;
   flex-wrap: nowrap;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .aboutcontainer nav {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .aboutcontainer nav {
     display: flex;
     flex-direction: column;
@@ -223,12 +292,12 @@ table {
 .aboutcontainer nav a:hover {
   color: #E8A87C;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .aboutcontainer nav a {
     width: auto;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .aboutcontainer nav a {
     width: auto;
   }
@@ -241,14 +310,14 @@ table {
   flex-wrap: nowrap;
   white-space: nowrap;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonials .testimonialscontainer nav {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .testimonials .testimonialscontainer nav {
     display: flex;
     flex-direction: column;
@@ -268,15 +337,184 @@ table {
 .testimonials .testimonialscontainer nav a:hover {
   color: #E8A87C;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonials .testimonialscontainer nav a {
     width: auto;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .testimonials .testimonialscontainer nav a {
     width: auto;
   }
+}
+html {
+  padding: 5%;
+}
+p {
+  line-height: 1.5;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main .row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media ( max-width: 500px ) {
+  .main .row1 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 {
+    flex-direction: column;
+  }
+}
+.main .row1 img {
+  width: 50%;
+  padding: 5%;
+}
+@media ( max-width: 500px ) {
+  .main .row1 img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 img {
+    width: 70%;
+  }
+}
+.main .row1 .paragraphs {
+  width: 70%;
+  padding: 5%;
+  font-size: 2rem;
+}
+@media ( max-width: 500px ) {
+  .main .row1 .paragraphs {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+.main .row1 .paragraphs h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5%;
+  width: 100%;
+}
+.main .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media ( max-width: 500px ) {
+  .main .row2 {
+    flex-direction: column-reverse;
+  }
+}
+.main .row2 p {
+  width: 50%;
+  padding: 5%;
+  font-size: 2rem;
+}
+@media ( max-width: 500px ) {
+  .main .row2 p {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row2 p {
+    font-size: 1.5rem;
+  }
+}
+.main .row2 .img2 {
+  border: #012B4D 5px solid;
+  width: 30%;
+  padding: 1%;
+  margin: 4%;
+  background-color: #E8A87C;
+}
+@media ( max-width: 500px ) {
+  .main .row2 .img2 {
+    width: 50%;
+  }
+}
+.boxes {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+}
+@media (max-width: 800px ) {
+  .boxes {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+.boxes section.box {
+  width: 50%;
+  margin: 10% 5%;
+  background-color: #012B4D;
+  border: 10px solid #E8A87C;
+  justify-content: center;
+}
+@media (max-width: 800px ) {
+  .boxes section.box {
+    width: 100%;
+  }
+}
+.boxes h2 {
+  color: #41B3A3;
+  text-align: center;
+  font-size: 2rem;
+  padding: 2%;
+  margin-top: 5%;
+}
+.boxes .textbox {
+  background-color: #D8D9D1;
+  padding: 5%;
+  margin: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+  margin: 10%;
+}
+@media (max-width: 800px ) {
+  .boxes .textbox {
+    margin: 0, auto;
+  }
+}
+.boxes .textbox p {
+  padding: 2%;
+  font-size: 1.5rem;
+}
+footer {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+footer a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+footer a:hover {
+  color: #E8A87C;
 }
 .aboutfooter nav {
   display: flex;
@@ -294,12 +532,12 @@ table {
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .aboutfooter nav a {
     width: auto;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .aboutfooter nav a {
     width: auto;
   }
@@ -311,14 +549,14 @@ table {
   justify-content: space-around;
   flex-wrap: nowrap;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonialsfooter nav {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .testimonialsfooter nav {
     display: flex;
     flex-direction: column;
@@ -334,18 +572,115 @@ table {
   text-align: center;
   font-family: 'Raleway', sans-serif;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonialsfooter nav a {
     width: auto;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .testimonialsfooter nav a {
     width: auto;
   }
 }
-h1 {
-  font-family: 'Raleway', sans-serif;
+html {
+  padding: 5%;
+}
+p {
+  line-height: 1.5;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main .row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media ( max-width: 500px ) {
+  .main .row1 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 {
+    flex-direction: column;
+  }
+}
+.main .row1 img {
+  width: 50%;
+  padding: 5%;
+}
+@media ( max-width: 500px ) {
+  .main .row1 img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 img {
+    width: 70%;
+  }
+}
+.main .row1 .paragraphs {
+  width: 70%;
+  padding: 5%;
+  font-size: 2rem;
+}
+@media ( max-width: 500px ) {
+  .main .row1 .paragraphs {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+.main .row1 .paragraphs h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5%;
+  width: 100%;
+}
+.main .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media ( max-width: 500px ) {
+  .main .row2 {
+    flex-direction: column-reverse;
+  }
+}
+.main .row2 p {
+  width: 50%;
+  padding: 5%;
+  font-size: 2rem;
+}
+@media ( max-width: 500px ) {
+  .main .row2 p {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row2 p {
+    font-size: 1.5rem;
+  }
+}
+.main .row2 .img2 {
+  border: #012B4D 5px solid;
+  width: 30%;
+  padding: 1%;
+  margin: 4%;
+  background-color: #E8A87C;
+}
+@media ( max-width: 500px ) {
+  .main .row2 .img2 {
+    width: 50%;
+  }
 }
 .about {
   font-size: 62.5%;
@@ -372,7 +707,7 @@ h1 {
 .about .aboutcontainer .about-contentcontainer .about-dev {
   margin: 1%;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .about .aboutcontainer .about-contentcontainer .about-dev {
     margin-left: 2%;
   }
@@ -383,12 +718,12 @@ h1 {
 .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
   margin: auto;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
     margin-left: 2%;
   }
 }
-@media (max-width: 750px ) {
+@media (max-width: 800px ) {
   .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
     margin-left: 2%;
   }
@@ -424,19 +759,19 @@ h1 {
   justify-content: center;
   flex-wrap: wrap;
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonials .testimonialscontainer .reviews {
     disply: flex;
     flex-direction: column;
     align-items: center;
   }
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonials .testimonialscontainer .reviews .reviewstyle {
     width: 80%;
   }
 }
-@media ( max-width: 530px ) {
+@media ( max-width: 500px ) {
   .testimonials .testimonialscontainer .reviews .reviewstyle img {
     width: 30%;
   }
