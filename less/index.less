@@ -1,6 +1,12 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
+
 // Vars and mixins
 @import "variables";
 @import "mixins";
+
+// global styles
+@import "global";
 
 // General Styles
 @import "reset";
@@ -16,22 +22,9 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap');
 
 // marketing-page and about-page imports would go here?
-//@import "marketing-page"
 
-html {
-    font-size: 62.5%;
-    max-width: 100%;
-}
+@import "marketing-page";
+@import "about-devs";
+@import "testimonials";
 
-body {
-    padding: 5%;
-    background: @grey-nurse;
-}
 
-h1, h2, h3 {
-    font-family: 'Merriweather', serif;
-}
-
-p {
-    font-family: 'Raleway', sans-serif;
-}

@@ -1,8 +1,79 @@
+@font-face {
+  font-family: 'Merriweather';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
 @media ( max-width: 500px ) {
   font-size: 2.5rem;
 }
 @media (max-width: 800px ) {
   font-size: 3rem;
+}
+.about-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1rem;
+  margin: 2%;
+  font-family: 'Raleway', sans-serif;
+}
+.about-dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Merriweather', serif;
+}
+.reviewstyle {
+  text-align: center;
+  background-color: #41B3A3;
+  border: solid 4px #012B4D;
+  width: 35%;
+  margin: 3%;
+  font-family: 'Raleway', sans-serif;
+}
+.reviewstyle p {
+  font-size: 1.2rem;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.reviewstyle img {
+  border-radius: 50%;
+  margin: 1%;
+  border: solid black 1px;
+}
+@media ( max-width: 500px ) {
+  .reviewstyle img {
+    width: 80%;
+  }
+}
+.reviewstyle h3 {
+  font-size: 1.4rem;
+  margin-top: 1%;
+}
+html {
+  font-size: 62.5%;
+  max-width: 100%;
+}
+body {
+  padding: 5%;
+  background: #D8D9D1;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -185,6 +256,97 @@ nav a:hover {
     padding: 1%;
   }
 }
+.aboutcontainer nav {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+@media ( max-width: 500px ) {
+  .aboutcontainer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px ) {
+  .aboutcontainer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.aboutcontainer nav a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  width: 50%;
+  font-size: 1.5rem;
+  text-align: center;
+  max-width: fit-content;
+  font-family: 'Merriweather', serif;
+  white-space: nowrap;
+}
+.aboutcontainer nav a:hover {
+  color: #E8A87C;
+}
+@media ( max-width: 500px ) {
+  .aboutcontainer nav a {
+    width: auto;
+  }
+}
+@media (max-width: 800px ) {
+  .aboutcontainer nav a {
+    width: auto;
+  }
+}
+.testimonials .testimonialscontainer nav {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+@media ( max-width: 500px ) {
+  .testimonials .testimonialscontainer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px ) {
+  .testimonials .testimonialscontainer nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.testimonials .testimonialscontainer nav a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  width: 10%;
+  font-size: 1.6rem;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+.testimonials .testimonialscontainer nav a:hover {
+  color: #E8A87C;
+}
+@media ( max-width: 500px ) {
+  .testimonials .testimonialscontainer nav a {
+    width: auto;
+  }
+}
+@media (max-width: 800px ) {
+  .testimonials .testimonialscontainer nav a {
+    width: auto;
+  }
+}
 html {
   padding: 5%;
 }
@@ -354,33 +516,263 @@ footer a {
 footer a:hover {
   color: #E8A87C;
 }
-@font-face {
-  font-family: 'Merriweather';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Merriweather Regular'), local('Merriweather-Regular'), url(https://fonts.gstatic.com/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZJ.ttf) format('truetype');
+.aboutfooter nav {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
 }
-@font-face {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+.aboutfooter nav a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  width: 10%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+@media ( max-width: 500px ) {
+  .aboutfooter nav a {
+    width: auto;
+  }
+}
+@media (max-width: 800px ) {
+  .aboutfooter nav a {
+    width: auto;
+  }
+}
+.testimonialsfooter nav {
+  display: flex;
+  background: #012B4D;
+  padding: 2%;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+}
+@media ( max-width: 500px ) {
+  .testimonialsfooter nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px ) {
+  .testimonialsfooter nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.testimonialsfooter nav a {
+  text-decoration: none;
+  background: #41B3A3;
+  color: black;
+  padding: 2%;
+  width: 10%;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+@media ( max-width: 500px ) {
+  .testimonialsfooter nav a {
+    width: auto;
+  }
+}
+@media (max-width: 800px ) {
+  .testimonialsfooter nav a {
+    width: auto;
+  }
 }
 html {
-  font-size: 62.5%;
-  max-width: 100%;
-}
-body {
   padding: 5%;
-  background: #D8D9D1;
-}
-h1,
-h2,
-h3 {
-  font-family: 'Merriweather', serif;
 }
 p {
+  line-height: 1.5;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.main .row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media ( max-width: 500px ) {
+  .main .row1 {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 {
+    flex-direction: column;
+  }
+}
+.main .row1 img {
+  width: 50%;
+  padding: 5%;
+}
+@media ( max-width: 500px ) {
+  .main .row1 img {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 img {
+    width: 70%;
+  }
+}
+.main .row1 .paragraphs {
+  width: 70%;
+  padding: 5%;
+  font-size: 2rem;
+}
+@media ( max-width: 500px ) {
+  .main .row1 .paragraphs {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs {
+    width: 100%;
+    font-size: 1.5rem;
+  }
+}
+.main .row1 .paragraphs h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 5%;
+  width: 100%;
+}
+.main .row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media ( max-width: 500px ) {
+  .main .row2 {
+    flex-direction: column-reverse;
+  }
+}
+.main .row2 p {
+  width: 50%;
+  padding: 5%;
+  font-size: 2rem;
+}
+@media ( max-width: 500px ) {
+  .main .row2 p {
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  .main .row2 p {
+    font-size: 1.5rem;
+  }
+}
+.main .row2 .img2 {
+  border: #012B4D 5px solid;
+  width: 30%;
+  padding: 1%;
+  margin: 4%;
+  background-color: #E8A87C;
+}
+@media ( max-width: 500px ) {
+  .main .row2 .img2 {
+    width: 50%;
+  }
+}
+.about {
+  font-size: 62.5%;
+  padding: 2% 4% 2% 4%;
+}
+.about .aboutcontainer {
+  background-color: #D8D9D1;
+  font-size: 1.6rem;
   font-family: 'Raleway', sans-serif;
+  color: #21211A;
+}
+.about .aboutcontainer header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.about .aboutcontainer header h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+}
+.about .aboutcontainer .about-contentcontainer {
+  margin: 2%;
+}
+.about .aboutcontainer .about-contentcontainer .about-dev {
+  margin: 1%;
+}
+@media ( max-width: 500px ) {
+  .about .aboutcontainer .about-contentcontainer .about-dev {
+    margin-left: 2%;
+  }
+}
+.about .aboutcontainer .about-contentcontainer .about-dev h2 {
+  font-size: 1.6rem;
+}
+.about .aboutcontainer .about-contentcontainer .about-dev .about-text {
+  margin: auto;
+}
+@media ( max-width: 500px ) {
+  .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
+    margin-left: 2%;
+  }
+}
+@media (max-width: 800px ) {
+  .about .aboutcontainer .about-contentcontainer .about-dev .about-text {
+    margin-left: 2%;
+  }
+}
+.about .aboutcontainer .about-contentcontainer .about-dev .about-text .logo {
+  background: transparent;
+}
+.testimonials {
+  font-size: 62.5%;
+  padding: 2% 4% 2% 4%;
+}
+.testimonials .testimonialscontainer {
+  background-color: #D8D9D1;
+}
+.testimonials .testimonialscontainer .topcontent {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+  justify-content: center;
+}
+.testimonials .testimonialscontainer .topcontent .bottomline {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: solid #E8A87C 1px;
+}
+.testimonials .testimonialscontainer .topcontent h1 {
+  font-size: 2rem;
+  margin-bottom: 2%;
+  font-family: 'Merriweather', serif;
+}
+.testimonials .testimonialscontainer .reviews {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media ( max-width: 500px ) {
+  .testimonials .testimonialscontainer .reviews {
+    disply: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media ( max-width: 500px ) {
+  .testimonials .testimonialscontainer .reviews .reviewstyle {
+    width: 80%;
+  }
+}
+@media ( max-width: 500px ) {
+  .testimonials .testimonialscontainer .reviews .reviewstyle img {
+    width: 30%;
+  }
 }

@@ -7,3 +7,47 @@
 @media @tablet {
     font-size: 3rem;
 }
+
+// Mixins for main content in about.html
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    margin: 2%;
+    font-family: @raleway;
+}
+
+.about-dev {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: @merriweather;
+}
+
+.reviewstyle {
+    text-align: center;
+    background-color: @puerto-rico;
+    border: solid 4px @prussian-blue;
+    width: 35%;
+    margin: 3%;
+    font-family: @raleway;
+    p {
+        font-size: 1.2rem;
+        margin-top: 1%;
+        margin-bottom: 2%;
+    }
+    img {
+        border-radius: 50%;
+        margin: 1%;
+        border: solid black 1px;
+        @media @phone {
+            width: 80%;
+        }
+    }
+    h3 {
+        font-size: 1.4rem;
+        margin-top: 1%;
+    }
+}

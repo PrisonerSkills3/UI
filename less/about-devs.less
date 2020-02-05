@@ -1,0 +1,43 @@
+.about {
+    font-size: 62.5%;
+    padding: 2% 4% 2% 4%;
+    .aboutcontainer { 
+        background-color: @bg-color;
+        font-size: 1.6rem;
+        font-family: @raleway;
+        color: @font-color;
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h1 {
+                font-family: @merriweather;
+                font-size: 2.5rem;
+            } // closes h1
+        } // closes header
+        .about-contentcontainer {
+            margin: 2%;
+            .about-dev {
+                margin: 1%;
+                @media @phone {
+                    margin-left: 2%;
+                }
+                h2 {
+                    font-size: 1.6rem;
+                }
+                .about-text {
+                    margin: auto;
+                    @media @phone {
+                        margin-left: 2%;
+                    }
+                    @media @tablet {
+                        margin-left: 2%;
+                    }
+                    .logo {
+                        background: transparent;
+                    }
+                }
+            } // closes about-dev
+        } // closes about-contentcontainer
+    } // closes aboutcontainer
+} // closes .about (body)
