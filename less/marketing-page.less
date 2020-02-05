@@ -39,9 +39,9 @@ p {
         }
 
         .paragraphs {
-            width: 70%;
+            width: 50%;
             padding: 5%;
-            font-size: 2rem;
+            font-size: 1rem;
 
             @media @phone {
                 width: 100%;
@@ -49,14 +49,24 @@ p {
 
             @media @tablet {
                 width: 100%;
-                font-size: 1.5rem;
             }
 
             h2 {
                 font-size: 3rem;
                 line-height: 1.5;
-                padding: 5%;
+                padding-bottom: 5%;
                 width: 100%;
+                text-align: center;
+            }
+
+            p {
+                padding-left: 5%;
+                padding-right: 5%;
+                font-size: 1.2rem;
+
+                @media @tablet {
+                    font-size: 1rem;
+                }
             }
         }
     }
@@ -73,14 +83,14 @@ p {
         p {
             width: 50%;
             padding: 5%;
-            font-size: 2rem;
+            font-size: 1.2rem;
 
             @media @phone {
                 width: 100%;
             }
 
             @media @tablet {
-                font-size: 1.5rem;
+                font-size: 1rem;
             }
         }
 

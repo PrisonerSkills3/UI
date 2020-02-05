@@ -12,6 +12,22 @@
   font-display: swap;
   src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v14/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
 }
+html {
+  font-size: 62.5%;
+}
+body {
+  padding: 5%;
+  background: #D8D9D1;
+  max-width: 100%;
+}
+h1,
+h2,
+h3 {
+  font-family: 'Merriweather', serif;
+}
+p {
+  font-family: 'Raleway', sans-serif;
+}
 @media ( max-width: 500px ) {
   font-size: 2.5rem;
 }
@@ -58,22 +74,6 @@
 .reviewstyle h3 {
   font-size: 1.4rem;
   margin-top: 1%;
-}
-html {
-  font-size: 62.5%;
-  max-width: 100%;
-}
-body {
-  padding: 5%;
-  background: #D8D9D1;
-}
-h1,
-h2,
-h3 {
-  font-family: 'Merriweather', serif;
-}
-p {
-  font-family: 'Raleway', sans-serif;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -214,35 +214,34 @@ nav {
   nav {
     flex-direction: column;
     align-items: center;
+    width: 100%;
   }
 }
 nav a {
   text-decoration: none;
   background: #41B3A3;
   color: black;
-  padding: 2%;
-  margin: 2%;
+  padding: 1%;
+  margin: 1%;
   width: 50%;
-  max-width: fit-content;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-family: 'Merriweather', serif;
   white-space: nowrap;
 }
 @media ( max-width: 500px ) {
   nav a {
-    font-size: 20px;
+    font-size: 1rem;
     background-color: #012B4D;
     color: #41B3A3;
     border-top: 2px solid #E8A87C;
     border-bottom: 2px solid #E8A87C;
     width: 100%;
-    max-width: 100%;
   }
 }
 @media (max-width: 800px ) {
   nav a {
-    font-size: 1rem;
+    font-size: 0.75rem;
   }
 }
 nav a:hover {
@@ -389,9 +388,9 @@ p {
   }
 }
 .main .row1 .paragraphs {
-  width: 70%;
+  width: 50%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 @media ( max-width: 500px ) {
   .main .row1 .paragraphs {
@@ -401,14 +400,24 @@ p {
 @media (max-width: 800px ) {
   .main .row1 .paragraphs {
     width: 100%;
-    font-size: 1.5rem;
   }
 }
 .main .row1 .paragraphs h2 {
   font-size: 3rem;
   line-height: 1.5;
-  padding: 5%;
+  padding-bottom: 5%;
   width: 100%;
+  text-align: center;
+}
+.main .row1 .paragraphs p {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs p {
+    font-size: 1rem;
+  }
 }
 .main .row2 {
   display: flex;
@@ -423,7 +432,7 @@ p {
 .main .row2 p {
   width: 50%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
@@ -432,7 +441,7 @@ p {
 }
 @media (max-width: 800px ) {
   .main .row2 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .main .row2 .img2 {
@@ -495,12 +504,12 @@ p {
 }
 .boxes .textbox p {
   padding: 2%;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 footer {
   display: flex;
   background: #012B4D;
-  padding: 2%;
+  padding: 1%;
   justify-content: space-around;
   flex-wrap: nowrap;
 }
@@ -508,10 +517,10 @@ footer a {
   text-decoration: none;
   background: #41B3A3;
   color: black;
-  padding: 2%;
+  padding: 1%;
   width: 100%;
   text-align: center;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 footer a:hover {
   color: #E8A87C;
@@ -624,9 +633,9 @@ p {
   }
 }
 .main .row1 .paragraphs {
-  width: 70%;
+  width: 50%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 @media ( max-width: 500px ) {
   .main .row1 .paragraphs {
@@ -636,14 +645,24 @@ p {
 @media (max-width: 800px ) {
   .main .row1 .paragraphs {
     width: 100%;
-    font-size: 1.5rem;
   }
 }
 .main .row1 .paragraphs h2 {
   font-size: 3rem;
   line-height: 1.5;
-  padding: 5%;
+  padding-bottom: 5%;
   width: 100%;
+  text-align: center;
+}
+.main .row1 .paragraphs p {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: 1.2rem;
+}
+@media (max-width: 800px ) {
+  .main .row1 .paragraphs p {
+    font-size: 1rem;
+  }
 }
 .main .row2 {
   display: flex;
@@ -658,7 +677,7 @@ p {
 .main .row2 p {
   width: 50%;
   padding: 5%;
-  font-size: 2rem;
+  font-size: 1.2rem;
 }
 @media ( max-width: 500px ) {
   .main .row2 p {
@@ -667,7 +686,7 @@ p {
 }
 @media (max-width: 800px ) {
   .main .row2 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 .main .row2 .img2 {
