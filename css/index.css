@@ -334,6 +334,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
 }
 @media ( max-width: 500px ) {
   .main .row2 {
@@ -548,6 +549,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5%;
 }
 @media ( max-width: 500px ) {
   .main .row2 {
