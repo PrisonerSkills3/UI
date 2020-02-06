@@ -414,89 +414,56 @@ p {
   padding: 2%;
   font-size: 1rem;
 }
-footer {
+nav {
   display: flex;
   background: #012B4D;
-  padding: 1%;
+  padding: 2%;
   justify-content: space-around;
   flex-wrap: nowrap;
 }
-footer a {
+@media ( max-width: 500px ) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+}
+nav a {
   text-decoration: none;
   background: #41B3A3;
   color: black;
   padding: 1%;
-  width: 100%;
+  margin: 1%;
+  width: 50%;
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Merriweather', serif;
+  white-space: nowrap;
 }
-footer a:hover {
+@media ( max-width: 500px ) {
+  nav a {
+    font-size: 1rem;
+    background-color: #012B4D;
+    color: #41B3A3;
+    border-top: 2px solid #E8A87C;
+    border-bottom: 2px solid #E8A87C;
+    width: 100%;
+  }
+}
+@media (max-width: 800px ) {
+  nav a {
+    font-size: 0.75rem;
+  }
+}
+nav a:hover {
   color: #E8A87C;
 }
-.aboutfooter nav {
-  display: flex;
-  background: #012B4D;
-  padding: 2%;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-}
-.aboutfooter nav a {
-  text-decoration: none;
-  background: #41B3A3;
-  color: black;
-  padding: 2%;
-  width: 10%;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
 @media ( max-width: 500px ) {
-  .aboutfooter nav a {
-    width: auto;
-  }
-}
-@media (max-width: 800px ) {
-  .aboutfooter nav a {
-    width: auto;
-  }
-}
-.testimonialsfooter nav {
-  display: flex;
-  background: #012B4D;
-  padding: 2%;
-  justify-content: space-around;
-  flex-wrap: nowrap;
-}
-@media ( max-width: 500px ) {
-  .testimonialsfooter nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-@media (max-width: 800px ) {
-  .testimonialsfooter nav {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.testimonialsfooter nav a {
-  text-decoration: none;
-  background: #41B3A3;
-  color: black;
-  padding: 2%;
-  width: 10%;
-  text-align: center;
-  font-family: 'Raleway', sans-serif;
-}
-@media ( max-width: 500px ) {
-  .testimonialsfooter nav a {
-    width: auto;
-  }
-}
-@media (max-width: 800px ) {
-  .testimonialsfooter nav a {
-    width: auto;
+  nav a {
+    margin: 10%;
+    width: 80%;
+    margin: 5%;
+    padding: 1%;
   }
 }
 html {
