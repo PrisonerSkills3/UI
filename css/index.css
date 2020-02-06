@@ -258,6 +258,9 @@ nav a:hover {
 html {
   padding: 5%;
 }
+body {
+  padding: 2% 4% 2% 4%;
+}
 p {
   line-height: 1.5;
 }
@@ -468,6 +471,9 @@ nav a:hover {
 }
 html {
   padding: 5%;
+}
+body {
+  padding: 2% 4% 2% 4%;
 }
 p {
   line-height: 1.5;
