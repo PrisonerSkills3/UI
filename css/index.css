@@ -284,7 +284,7 @@ p {
   }
 }
 .main .row1 img {
-  width: 50%;
+  width: 30%;
   padding: 1%;
 }
 @media ( max-width: 500px ) {
@@ -354,7 +354,7 @@ p {
 }
 .main .row2 .img2 {
   border: #012B4D 5px solid;
-  width: 30%;
+  width: 20%;
   padding: 1%;
   margin: 2%;
   background-color: #E8A87C;
@@ -528,7 +528,7 @@ p {
   }
 }
 .main .row1 img {
-  width: 50%;
+  width: 30%;
   padding: 1%;
 }
 @media ( max-width: 500px ) {
@@ -598,7 +598,7 @@ p {
 }
 .main .row2 .img2 {
   border: #012B4D 5px solid;
-  width: 30%;
+  width: 20%;
   padding: 1%;
   margin: 2%;
   background-color: #E8A87C;
