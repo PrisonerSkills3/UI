@@ -271,6 +271,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5%;
 }
 @media ( max-width: 500px ) {
   .main .row1 {
@@ -284,7 +285,7 @@ p {
 }
 .main .row1 img {
   width: 50%;
-  padding: 5%;
+  padding: 1%;
 }
 @media ( max-width: 500px ) {
   .main .row1 img {
@@ -319,8 +320,6 @@ p {
   text-align: center;
 }
 .main .row1 .paragraphs p {
-  padding-left: 5%;
-  padding-right: 5%;
   font-size: 1.2rem;
 }
 @media (max-width: 800px ) {
@@ -357,7 +356,7 @@ p {
   border: #012B4D 5px solid;
   width: 30%;
   padding: 1%;
-  margin: 4%;
+  margin: 2%;
   background-color: #E8A87C;
 }
 @media ( max-width: 500px ) {
@@ -516,6 +515,7 @@ p {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 5%;
 }
 @media ( max-width: 500px ) {
   .main .row1 {
@@ -529,7 +529,7 @@ p {
 }
 .main .row1 img {
   width: 50%;
-  padding: 5%;
+  padding: 1%;
 }
 @media ( max-width: 500px ) {
   .main .row1 img {
@@ -564,8 +564,6 @@ p {
   text-align: center;
 }
 .main .row1 .paragraphs p {
-  padding-left: 5%;
-  padding-right: 5%;
   font-size: 1.2rem;
 }
 @media (max-width: 800px ) {
@@ -602,7 +600,7 @@ p {
   border: #012B4D 5px solid;
   width: 30%;
   padding: 1%;
-  margin: 4%;
+  margin: 2%;
   background-color: #E8A87C;
 }
 @media ( max-width: 500px ) {
