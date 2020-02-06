@@ -14,6 +14,7 @@
 }
 html {
   font-size: 62.5%;
+  padding: 5%;
 }
 body {
   padding: 5%;
@@ -214,7 +215,6 @@ nav {
   nav {
     flex-direction: column;
     align-items: center;
-    width: 100%;
   }
 }
 nav a {
